@@ -1,0 +1,79 @@
+/* effects */
+
+.sidebar_menu .menu li:hover{
+   box-shadow: 0px 0px 4px rgba(175, 167, 167, 0.5);
+
+
+}
+
+.btn_one i:hover{
+   font-size: 25px;
+}
+
+.btn_two i:hover{
+   font-size: 18px;
+}
+/* we can chnage the curson type */
+
+.sidebar_menu .social_media i:hover{
+   opacity: 1;
+   font-size: 1.1rem;
+   transition: all 0.3s linear;
+
+}
+
+#check:checked ~.sidebar_menu 
+{
+   left: 0px;
+}
+
+#check:checked ~.btn_one i {
+   opacity: 0;
+}
+
+#check:checked ~ .sidebar_menu .btn_two{
+   opacity: 1;
+}
+
+
+#heading{
+   letter-spacing: 2px;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: baseline;
+   align-items: center; */
+   position: fixed;
+   top: 260px;
+   left: 350px;
+   
+
+   transition: all 2s linear;
+}
+
+#first_line{
+   color: white;
+   font-size: 35px;
+   opacity: 0.8 ;
+}
+
+#sec_line{
+   color: rgb(209, 172, 244);
+
+   font-size: 60px;
+   font-family: 'Kaushan Script', cursive;
+   left: 300px;
+
+}
+
+#check:checked ~ #heading #first_line{
+   display: none;
+}
+
+#check:checked ~ #heading #sec_line{
+   display: none;
+}
+
+
+
+
+

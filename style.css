@@ -1,0 +1,119 @@
+*{
+   /*to get a clean slate; prefferably before the start of any project  */
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+.main_box{
+   background-image: url("photo.jpg");
+   height: 100vh;
+   background-size: cover;
+}
+
+.btn_one i{
+   color: white;
+   font-size: 20px;
+   font-weight: 700px;
+   position: absolute;
+   left: 40px;
+   line-height: 60px;
+
+   position: absolute;/* wrt to parent, whose position not defined so automatically wrt doc */
+   left: 20px;
+   top: 0.5%;
+   line-height: 60px; 
+   transition: all 0.3s linear;
+  
+}
+
+.sidebar_menu{
+   position: fixed;
+   left: -300px;
+   height: 100vh;
+   width: 300px; 
+   background-color: rgba(255, 255, 255, 0.1);  
+   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.4); 
+   transition: all 0.3s linear;
+}
+
+.sidebar_menu .logo{
+width: 100%;
+height: 65px;
+position: absolute;
+line-height: 60px;
+box-shadow: 0px 0px 4px rgba(175, 167, 167, 0.5);
+cursor: /* zoom-in */pointer;
+}
+
+.sidebar_menu .logo a{
+   text-decoration: none;
+   position: absolute;
+   left: 55px;
+   letter-spacing: 0px;
+   color: rgb(234, 232, 231);
+   font-size: 30px;
+   font-weight: 300px;
+}
+
+.sidebar_menu .btn_two i{
+   color: gray;
+   font-size: 15px;
+   font-weight: 700px;
+   line-height: 60px;
+   position: absolute;
+   left: 280px;
+   top: 0.1px;
+   opacity: 1;
+   transition: all 0.3s linear;
+
+}
+
+.sidebar_menu .menu{
+   width: 100%;
+   position: absolute;
+   top: 100px;
+  
+}
+
+.sidebar_menu .menu li{
+   margin-top: 10px;
+   padding: 8px 30px;
+   letter-spacing: 1px;
+}
+
+.sidebar_menu .menu i,a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px; 
+}
+
+.sidebar_menu .menu i{
+   padding-right: 12px ;
+}
+
+
+.sidebar_menu .social_media{
+   position: absolute;
+   bottom: 2%;
+   left: 22%;
+   line-height: 16px;
+   /* box-shadow: 1px 1px 4px white; */
+}
+
+.sidebar_menu .social_media i{
+   color: white;
+   opacity: 0.4;
+   padding: 4px;
+   font-size: 1rem;
+}
+
+#check{
+   display: none;
+}
+
+
+
+
+
+
